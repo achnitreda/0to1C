@@ -3,14 +3,14 @@
 int main()
 {
 
-    float celsius, fahrenheit;
+    float cel, fah;
     
     printf("température en degré fahrenheit: ");
-    scanf("%f", &fahrenheit);
+    scanf("%f", &fah);
     
-    celsius = (fahrenheit - 32) * 5/9;
+    cel = (fah - 32) * 5/9;
 
-    printf("%.2f", celsius);
+    printf("température en degré celsius: %.2f", cel);
 
     return 0;
     

@@ -9,7 +9,7 @@ int main()
 
     kilometre = mile * 1.609;
 
-    printf("%f",kilometre);
+    printf("la distance en kilometre: %.2f",kilometre);
     
     return 0;
 }

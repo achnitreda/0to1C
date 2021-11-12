@@ -18,7 +18,7 @@ int main()
     printf("enter y2 : \n");
     scanf("%f", &y2);
 
-    float distance = sqrt( ((x2-x1)*(x2-x1)) + ((y2-y1)*(y2-y1)) );
+    float distance = sqrt( pow(x2-x1, 2) + pow(y2-y1, 2) );
 
     printf("Distance : %.2f", distance);
 

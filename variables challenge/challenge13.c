@@ -10,8 +10,8 @@ int main()
 
     
 
-    printf("Hexadecimal : %x \n", &nb);
-    printf("octale : %o ", &nb);
+    printf("Hexadecimal : %x \n", nb);
+    printf("octale : %o ", nb);
 
     return 0;
 

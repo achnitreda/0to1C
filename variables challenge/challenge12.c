@@ -11,7 +11,7 @@ int main()
    b = (nb % 100) / 10;
    c = nb / 100;
 
-   printf("enter reverse number: %d %d %d", a, b, c);
+   printf("enter reverse number: %d%d%d", a, b, c);
 
    return 0;
 

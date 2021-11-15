@@ -2,16 +2,17 @@
 
 int main()
 {
-   int nb, a, b, c;
+   char str[3];
+   char str1[3];
 
-   printf("enter number: \n");
-   scanf("%d", &nb);
+   printf("enter number: ");
+   scanf("%s", &str);
 
-   a = (nb % 100) % 10;
-   b = (nb % 100) / 10;
-   c = nb / 100;
+   str1[0] = str[2];
+   str1[1] = str[1];
+   str1[2] = str[0];
 
-   printf("enter reverse number: %d%d%d", a, b, c);
+   printf("reverse number: %s",str1);
 
    return 0;
 

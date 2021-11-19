@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 
 void echanger (int a, int b)
 {
@@ -8,7 +8,7 @@ void echanger (int a, int b)
         a = b;
         b = c;
     printf("a = %d \n",a);
-    printf("b = %d",b);
+    printf("b = %d \n",b);
 
     
 }
@@ -22,7 +22,6 @@ int main()
     scanf("%d",&b);
 
     echanger(a,b);
-
 
 
     return 0;

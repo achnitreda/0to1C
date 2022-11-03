@@ -1,1 +1,1 @@
-# C programming challeges.
+# C programming challenges.
